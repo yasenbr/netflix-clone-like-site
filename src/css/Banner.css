@@ -6,7 +6,7 @@
 .banner__contents {
   margin-left: 60px;
   padding-top: 370px;
-  height: 270px;
+  height: 260px;
 }
 .banner__title {
   font-size: 3rem;
@@ -45,7 +45,7 @@
   transition: all 0.2s;
 }
 .banner--fadeBottom {
-  height: 7.4rem;
+  height: 7.8rem;
   background-image: linear-gradient(
     180deg,
     transparent,
