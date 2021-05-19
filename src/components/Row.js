@@ -14,6 +14,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
     //if [] blanc , run once when the row loads.on page load
     async function fetchData() {
       const request = await axios.get(fetchUrl);
+      console.log(request.data.results);
       console.table(request.data.results);
       setMovies(request.data.results);
       return request;
